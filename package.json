@@ -1,0 +1,23 @@
+{
+  "name": "login",
+  "version": "0.0.1",
+  "description": "Nodejs & Mongo RESTful API Authentication",
+  "homepage": "https://github.com/Jopenz/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "nodemon app.js"
+  },
+  "author": "Adrian Martinez - jopenz@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.1.0",
+    "express": "*",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.1"
+  },
+  "devDependencies": {}
+}
